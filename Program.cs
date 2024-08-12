@@ -20,16 +20,16 @@ namespace ConsoleApp39_WorkWithCPropertis_
 
     class Hero
     {
-        public char SignHero { get; }
-        public int PositionX { get; }
-        public int PositionY { get; }
-
         public Hero(char sign, int positionX = 0, int positionY = 0)
         {
             SignHero = sign;
             PositionX = positionX;
             PositionY = positionY;
         }
+
+        public char SignHero { get; }
+        public int PositionX { get; }
+        public int PositionY { get; }       
     }
 
     class Renderer
